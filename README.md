@@ -1,12 +1,16 @@
 # Calculator
 
+## Link
+
+- Live Site URL: [https://saadmalik200.github.io/basic-calculator-vanilla-javascript/](https://saadmalik200.github.io/basic-calculator-vanilla-javascript/)
+
 Description:
 
 - The user will be able to input two numbers for which they would like to do two types of calculations: Basic Arithmatic and Special Operations.
 
 - Basic arithmatic will involve addition, subtraction, multiplication and division.
 
-- Special operations will deal with the calculation of modulo. 
+- Special operations will deal with the calculation of modulo.
 
 - As soon as the users input the numbers, they will see an immediate result on the page as an outcome of the operation.
 
@@ -37,7 +41,8 @@ Create a Calculator app with the following operations:
 
 Note: the calculations should only include two operands.
 
-8. **Optional:** 
+8. **Optional:**
+
 - Feel free to use Bootstrap for styling.
 
 > Hint: Refer to the representation below, for an idea of what your result should look like.

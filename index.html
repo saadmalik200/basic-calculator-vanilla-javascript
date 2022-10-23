@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <title>Calculator</title>
+  </head>
+  <body class="container">
+    <header class="container lead text-center bg-warning">
+      <h1>CALCULATION X</h1>
+    </header>
+    <main class="container">
+      <section>
+        <h2>Basic Arithmetic</h2>
+        <p class="addition">
+          <input type="number" class="in" name="addition" /> +
+          <input type="number" name="addition" class="in" /> =
+          <input type="number" name="additionOut" class="out" disabled />
+        </p>
+        <p class="subtraction">
+          <input type="number" class="in" /> -
+          <input type="number" class="in" /> =
+          <input type="number" class="out" disabled />
+        </p>
+        <p class="multiplication">
+          <input type="number" class="in" /> x
+          <input type="number" class="in" /> =
+          <input type="number" class="out" disabled />
+        </p>
+        <p class="division">
+          <input type="number" class="in" /> ÷
+          <input type="number" class="in" /> =
+          <input type="number" class="out" disabled />
+        </p>
+      </section>
+      <h2>Special Operations</h2>
+      <h3>Modulo</h3>
+      <p class="modulo">
+        <input type="number" class="in" /> %
+        <input type="number" class="in" /> =
+        <input type="number" class="out" disabled />
+      </p>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
